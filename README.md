@@ -13,7 +13,7 @@ This module should allow for a file upload with the POST method at the root URI:
 ```
 POST http://example.com 
 ```
-File should be saved to a direcotry on the server with a UUID (https://github.com/broofa/node-uuid) filename. A corrisponding JSON file should also be saved and should include meta information such as the original filename and the time of the upload. Example:
+File should be saved to a directory on the server with a UUID (https://github.com/broofa/node-uuid) filename. A corresponding JSON file should also be saved and should include meta information such as the original filename and the time of the upload. Example:
 ```
 /data/7dc73a35-3c76-4670-a4ef-de7376d8cdc9.bin  <-- Uploaded file contents
 /data/7dc73a35-3c76-4670-a4ef-de7376d8cdc9.json <-- File meta data
