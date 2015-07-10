@@ -1,14 +1,14 @@
 # file-server
 
-## EDUCATIONAL PURPOSES ONLY. NOT FOR PRODUCTION.
+#### EDUCATIONAL PURPOSES ONLY
 
-### To run:
+## To run:
 ```
 npm install
 node index.js
 ```
 
-### Description
+## Description
 This module should allow for a file upload with the POST method at the root URI:
 ```
 POST http://example.com 
