@@ -5,7 +5,7 @@ var app = express()
 app.use(multer({ dest: './uploads/'}))
 
 app.get('/', function(req, res){
-  res.send('hello world');
+  res.send('hello');
 });
 
 app.post('/', function(req, res){
