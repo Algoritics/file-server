@@ -23,8 +23,12 @@ onFileUploadComplete: function (file) {
 }
 }));
 
+app.get('/', function (req, res) {
+  res.send("UpDow server v1");
+});
+
 app.get('/:name', function (req, res) {
-  res.sendfile("./uploads/" + req.params.name);
+  res.sendFile("./uploads/" + req.params.name);
 });
 
 app.post('/',function(req,res){
