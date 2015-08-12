@@ -49,5 +49,3 @@ var server = app.listen(3000, function () {
 
   console.log('Example app listening at http://%s:%s', host, port);
 });
-
-// I LOVE TO EAT SHIT AND DIE
